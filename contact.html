@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Damso Fansite - Description</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="description">
+    <header>
+        <section class="logo-container">
+            <a href="index.html">
+                <img src="Photos/logo damso.png" alt="Logo Damso" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="concerts.html">Concerts</a></li>
+                    <li><a href="description.html">Description</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <h2>Contactez-nous</h2>
+    <form action="#" method="post">
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite">
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+            <option value="Autre Genre">Autre Genre</option>
+        </select>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="prénom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="adresse">Adresse postale :</label>
+        <textarea id="adresse" name="adresse" rows="4" required></textarea>
+
+        <input type="checkbox" id="confidentialite" name="confidentialite" required>
+        <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise.</label>
+        <button type="submit">Envoyer</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168043.36174845503!2d2.344645869300181!3d48.84528939867992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e810b19087%3A0x879b3e8ed0e0037d!2s20%20Rue%20des%20Foss%C3%A9s%20Saint-Jacques%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1699524376850!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </form>
+    <footer>
+        <section class="social-links">
+            <a href="https://www.facebook.com/THEDAMSO/?locale=fr_FR" target="_blank">Facebook</a>
+            <a href="https://twitter.com/THEDAMSO" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/thedamso/" target="_blank">Instagram</a>
+        </footer>
+    </section>
+  </body>
+</html>
